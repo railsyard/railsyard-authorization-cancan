@@ -1,5 +1,6 @@
 require "railsyard-authorization-cancan/version"
 require 'railsyard/authorization/none'
+require 'cancan'
 
 module Railsyard
   module Authorization
