@@ -15,6 +15,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = RailsyardAuthorizationCancan::VERSION
 
-  gem.add_dependency "railsyard"
+  gem.add_dependency "railsyard-backend"
   gem.add_dependency "cancan"
 end

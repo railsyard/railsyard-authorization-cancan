@@ -1,8 +1,8 @@
 require "railsyard-authorization-cancan/version"
-require 'railsyard/authorization/none'
+require 'railsyard-backend/authorization/none'
 require 'cancan'
 
-module Railsyard
+module Railsyard::Backend
   module Authorization
 
     class Cancan < None
